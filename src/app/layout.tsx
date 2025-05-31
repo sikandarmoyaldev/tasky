@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import { env } from "@/lib/env";
+import NavBar from "@/components/navbar";
 
 export const metadata: Metadata = {
     title: {
@@ -19,8 +20,11 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" suppressHydrationWarning>
-            <body className="min-h-screen bg-background font-sans antialiased text-foreground dark">
-                {children}
+            <body className="min-h-screen bg-background font-sans antialiased text-foreground">
+                <NavBar />
+                <div className="py-5 max-w-[90%] px-4 sm:px-6 lg:px-8 mx-auto">
+                    {children}
+                </div>
             </body>
         </html>
     );
