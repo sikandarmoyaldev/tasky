@@ -1,5 +1,7 @@
 # Tasky - Minimal To-Do List App Template
 
+![hero](public/og.png)
+
 Tasky is a smart and minimal to-do list app designed to help you stay organized, manage tasks efficiently, and boost productivity. Built with modern tools like Shadcn UI and Next.js, Tasky provides a clean, responsive, and accessible interface that's easy to extend for personal or professional use.
 
 ## Features
