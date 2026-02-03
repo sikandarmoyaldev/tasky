@@ -1,4 +1,4 @@
-# About this template
+## About this template
 
 **Smart minimal to-do list app.** Create, organize & track tasks. Built with **Next.js + Shadcn UI**. Dark mode, search, categories, priority levels.
 
